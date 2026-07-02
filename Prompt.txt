@@ -1,0 +1,82 @@
+Prompt 1:
+# Vai trò
+Bạn là một Senior Business Analyst kiêm System Analyst có hơn 10 năm kinh nghiệm trong lĩnh vực FinTech và Ngân hàng số.
+Bạn có kinh nghiệm viết Software Requirements Specification (SRS) theo chuẩn IEEE 830/IEEE 29148.
+
+# Mục tiêu
+Tôi sẽ cung cấp tài liệu Business Analysis của hệ thống mở tài khoản trực tuyến (eKYC).
+Hãy ghi nhớ toàn bộ ngữ cảnh để sử dụng ở các Prompt tiếp theo.
+Chưa cần sinh tài liệu.
+Chỉ trả lời:
+"Đã tiếp nhận ngữ cảnh dự án và sẵn sàng xây dựng SRS."
+
+Prompt 2:
+Dựa trên tài liệu Business Analysis đã ghi nhớ, hãy viết Phần 1 của tài liệu SRS.
+Yêu cầu trình bày theo chuẩn IEEE.
+Bao gồm:
+# 1. Introduction
+## 1.1 Purpose
+## 1.2 Scope
+## 1.3 Definitions
+## 1.4 Acronyms
+## 1.5 References
+Viết theo văn phong tài liệu kỹ thuật chuyên nghiệp.
+Xuất kết quả bằng Markdown.
+
+Prompt 3:
+Tiếp tục xây dựng tài liệu SRS.
+Viết Phần 2: Overall Description.
+Bao gồm:
+## Product Perspective
+## Product Functions
+## User Classes and Characteristics
+## Operating Environment
+## Design Constraints
+## Assumptions and Dependencies
+Trình bày đầy đủ theo chuẩn IEEE.
+Xuất Markdown.
+
+Prompt 4:
+Tiếp tục tài liệu SRS.
+Viết Phần 3: Specific Functional Requirements.
+Phân tích chi tiết các module sau:
+1. Đăng ký tài khoản
+2. Upload CCCD
+3. OCR đọc dữ liệu CCCD
+4. Liveness Check
+5. Face Matching
+6. Đối chiếu dữ liệu
+7. Kích hoạt tài khoản
+Đối với mỗi module hãy trình bày: Mục tiêu, Actors, Preconditions, Main Flow, Alternative Flow, Exception Flow, Postconditions, Business Rules, Validation Rules.
+Trình bày chuyên nghiệp dưới dạng Markdown.
+
+Prompt 5:
+Tiếp tục tài liệu SRS.
+Viết Phần 4: Non Functional Requirements.
+Bao gồm đầy đủ:
+Security, Performance, Availability, Reliability, Scalability, Maintainability, Logging, Audit, Backup & Recovery, Compliance.
+Đối với Performance hãy nêu rõ: Response Time, Concurrent Users, API Timeout.
+Đối với Security hãy nêu: Encryption, Authentication, Authorization, Data Privacy, Audit Log.
+Xuất Markdown.
+
+Prompt 6:
+Tiếp tục tài liệu SRS.
+Sinh mã Mermaid cho Use Case Diagram.
+Yêu cầu:
+Actors: Customer, eKYC System
+Use Cases: Register, Upload ID Card, OCR Processing, Liveness Check, Face Matching, Validate Information, Generate Account Number, Activate Account.
+Chỉ trả về code Mermaid.
+
+Prompt 7:
+Hãy ghép toàn bộ các phần đã tạo thành một tài liệu Software Requirements Specification hoàn chỉnh.
+Yêu cầu:
+- Có Table of Contents
+- Đánh số Heading tự động
+- Chuẩn IEEE
+- Markdown
+- Sẵn sàng xuất sang Word hoặc PDF
+Không rút gọn nội dung.
+được rồi, với prompt 7 này là phần tổng hợp lại để tạo thành 1 srs hoàn chỉnh, đồng thời với cái mã mermaid bạn cps thể tạo luôn hình ảnh của sơ đồ cho tôi ko, nhưng vẫn giữ lại mã mermaid chứ đừng xóa đi nhé
+đồng thời, bạn hãy gom 7 prompt lần lượt vào 1 file Prompt.txt cho tôi
+phần srs thì tạo thành định dạng file SS12_Bai2_SRS.md cho tôi
+sau khi tạo xong cả 2 file thì hãy đẩy chúng lên link github https://github.com/Viet2k6/IT212_SS12_Bai2 cho tôi
