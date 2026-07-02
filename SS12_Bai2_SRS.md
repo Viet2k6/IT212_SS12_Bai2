@@ -1,42 +1,5 @@
 # Software Requirements Specification (SRS) - eKYC System
 
-**Mục lục (Table of Contents)**
-1. [Introduction](#1-introduction)
-   1.1 [Purpose](#11-purpose)
-   1.2 [Scope](#12-scope)
-   1.3 [Definitions](#13-definitions)
-   1.4 [Acronyms](#14-acronyms)
-   1.5 [References](#15-references)
-2. [Overall Description](#2-overall-description)
-   2.1 [Product Perspective](#21-product-perspective)
-   2.2 [Product Functions](#22-product-functions)
-   2.3 [User Classes and Characteristics](#23-user-classes-and-characteristics)
-   2.4 [Operating Environment](#24-operating-environment)
-   2.5 [Design Constraints](#25-design-constraints)
-   2.6 [Assumptions and Dependencies](#26-assumptions-and-dependencies)
-3. [Specific Functional Requirements](#3-specific-functional-requirements)
-   3.1 [Module 1: Đăng ký tài khoản](#31-module-1-đăng-ký-tài-khoản)
-   3.2 [Module 2: Upload CCCD](#32-module-2-upload-cccd)
-   3.3 [Module 3: OCR đọc dữ liệu CCCD](#33-module-3-ocr-đọc-dữ-liệu-cccd)
-   3.4 [Module 4: Liveness Check](#34-module-4-liveness-check)
-   3.5 [Module 5: Face Matching](#35-module-5-face-matching)
-   3.6 [Module 6: Đối chiếu dữ liệu](#36-module-6-đối-chiếu-dữ-liệu)
-   3.7 [Module 7: Kích hoạt tài khoản](#37-module-7-kích-hoạt-tài-khoản)
-4. [Non-Functional Requirements](#4-non-functional-requirements)
-   4.1 [Security](#41-security)
-   4.2 [Performance](#42-performance)
-   4.3 [Availability](#43-availability)
-   4.4 [Reliability](#44-reliability)
-   4.5 [Scalability](#45-scalability)
-   4.6 [Maintainability](#46-maintainability)
-   4.7 [Logging](#47-logging)
-   4.8 [Audit](#48-audit)
-   4.9 [Backup & Recovery](#49-backup-recovery)
-   4.10 [Compliance](#410-compliance)
-5. [Visual Diagram](#5-visual-diagram)
-
-***
-
 ## 1. Introduction
 
 ### 1.1 Purpose
